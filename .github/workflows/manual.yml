@@ -10,10 +10,7 @@ on:
 jobs:
   
   build_package:
-    env:
-      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+        
     # The type of runner that the job will run on
     runs-on: windows-latest
 
