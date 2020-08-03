@@ -6,9 +6,9 @@ name: Module CI
 # or API.
 on:
   push:
-    paths:
-    - '!.github/**'
-    - '!docs/**'
+    paths-ignore:
+    - '.github/**'
+    - 'docs/**'
     branches:
       - master
       - dev
