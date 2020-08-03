@@ -63,7 +63,6 @@ namespace VirtoCommerce.ExperienceApiModule.Web
 
         public void Uninstall()
         {
-        
         }
                
     }
