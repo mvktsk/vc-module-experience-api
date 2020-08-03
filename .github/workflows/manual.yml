@@ -6,6 +6,13 @@ name: Module CI
 # or API.
 on:
   workflow_dispatch:
+  push:
+    paths:
+    - '.github/**'
+    - 'docs/**'
+    branches:
+      - master
+      - dev
     
 jobs:
   
