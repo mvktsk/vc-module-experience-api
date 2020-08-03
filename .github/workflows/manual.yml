@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '.github/**'
-    - 'docs/**'
+    - '!.github/**'
+    - '!docs/**'
     branches:
       - master
       - dev
